@@ -78,6 +78,29 @@ export default class Routes extends Component {
           exact
           path="/not-found"
         />
+        <Route
+          component={NotFound}
+          exact
+          path="/home"
+        />
+        <Route
+          component={NotFound}
+          exact
+          path="/admin"
+        />
+        <Route
+          component={NotFound}
+          exact
+          path="/data"
+        />
+        <Route
+          component={NotFound}
+          exact
+          path="/distro"
+        />
+
+
+
         <Redirect to="/not-found" />
       </Switch>
     );

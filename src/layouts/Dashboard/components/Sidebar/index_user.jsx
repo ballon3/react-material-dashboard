@@ -97,20 +97,7 @@ class Sidebar extends Component {
               primary="Home"
             />
           </ListItem>
-          <ListItem
-            activeClassName={classes.activeListItem}
-            className={classes.listItem}
-            component={NavLink}
-            to="/dashboard"
-          >
-            <ListItemIcon className={classes.listItemIcon}>
-              <DashboardIcon />
-            </ListItemIcon>
-            <ListItemText
-              classes={{ primary: classes.listItemText }}
-              primary="Admin"
-            />
-          </ListItem>
+
           <ListItem
             activeClassName={classes.activeListItem}
             className={classes.listItem}
